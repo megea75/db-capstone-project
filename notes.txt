@@ -1,0 +1,25 @@
+Hello Reviewer,
+
+Thank you for reviewing my "Little Lemon Analysis and Sales Report" project.
+
+**Instructions to Run the Project:**
+
+**1. Update Credentials:**
+   Before running any scripts, please open both Python files (`1_setup_database.py` and `2_analysis_and_sales_report.ipynb`) and update the `dbconfig` dictionary with your OWN MySQL username and password.
+
+   Example:
+   dbconfig = {
+       "user": "your_mysql_username",  // <-- Change this
+       "password": "your_mysql_password" // <-- Change this
+   }
+
+**2. Run the Database Setup Script:**
+   Execute the `1_setup_database.py` script from your terminal. This will create and populate the `little_lemon_db` on your local MySQL server.
+   `python 1_setup_database.py`
+
+**3. Run the Jupyter Notebook:**
+   Once the database is set up, open and run the `2_analysis_and_sales_report.ipynb` notebook cell by cell.
+
+This approach ensures the project runs on your system without requiring you to use my credentials, which is a security best practice.
+
+Thank you!
